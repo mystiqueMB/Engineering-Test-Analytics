@@ -37,3 +37,8 @@ for file in os.listdir(os.chdir(take_path)):
 
 #Overwrting the existing file
 c_file_new.to_csv("Combined.csv" , mode="w" ,header=True , index=False) 
+
+if __name__ == '__main__':
+   main()
+
+ 
